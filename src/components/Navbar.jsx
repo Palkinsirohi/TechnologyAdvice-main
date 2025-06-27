@@ -34,7 +34,7 @@ const Navbar = () => {
       { name: 'Project Management Software', href: '/Software-reviews/Project-management' },
       { name: 'Business Intelligence Software', href: '/software-reviews/business-intelligence-software' }
     ]
-  };r
+  };
 
   // Blog & Research dropdown data with hover content
   const blogResearch = {
