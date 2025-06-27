@@ -30,11 +30,11 @@ const Navbar = () => {
       { name: 'Human Resources Software', href: '/software-reviews/hr-software' },
       { name: 'Payroll Software', href: '/Software-reviews/Payroll' },
       { name: 'CRM Software', href: '/Software-reviews/CRM-software' },
-      { name: 'Sales Software', href: '/software-reviews/sales-software' },
+      { name: 'Sales Software', href: '/Software-reviews/Employee-disciplinary-action' },
       { name: 'Project Management Software', href: '/Software-reviews/Project-management' },
       { name: 'Business Intelligence Software', href: '/software-reviews/business-intelligence-software' }
     ]
-  };
+  };r
 
   // Blog & Research dropdown data with hover content
   const blogResearch = {

@@ -191,24 +191,9 @@ export default function Payroll() {
              Gusto started as an employee and contractor payments company but now supports various HR functions like benefits administration, performance management, recruitment, and global payroll. As a full-service payroll company, it offers automatic deductions, remittances, and filings of federal, state, and local taxes. It can even handle minimum wage adjustments for tip credits and child support payments in 49 states (all but South Carolina). In contrast, many standalone payroll solutions for small businesses require you to process garnishments and local taxes manually. 
             </p>
             <p className="text-black">
-              Gusto also supports global businesses with contractor payments in more than 120 countries. For its Gusto Global product, it partnered with Remote to offer EOR services for employers needing to hire and pay workers in the following countries:
+              Gusto also supports global businesses with contractor payments in more than 120 countries. For its Gusto Global product, it partnered with Remote to offer EOR services for employers needing to hire and pay workers 
             </p>
-            bullets: [
-                "Australia",
-"Brazil",
-"Canada",
-"Germany",
-"India",
-"Ireland',
-            ],
-            bullets: [
-                "Mexico",
-"Spain",
-"Netherlands",
-"Philippines",
-"Portugal",
-"United Kingdom',
-            ],
+           
             <p className="text-black">
              While the coverage may be limited as of this writing, Gusto plans to expand its EOR services to other countries soon.</p>
            <h4 className="text-lg font-bold mb-2">
@@ -1062,7 +1047,7 @@ Jessica Dennis
             {/* Main Content */}
 
             <div className="flex-1 max-w-4xl">
-              <section id="what-is-pm-software">
+              <section id="what-is-payroll-software?">
                 <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 transition-shadow duration-300 overflow-hidden p-6 sm:p-8">
                   {/* Header */}
                   <header className="mb-8">
@@ -1240,7 +1225,7 @@ Jessica Dennis
 </div>
 
 
-//why-you-can-trust-my-advice
+{/* //why-you-can-trust-my-advice */}
 <div className="border border-gray-200 rounded-lg">
   <button
     onClick={() => toggleSection("why-you-can-trust-my-advice")}
@@ -1331,20 +1316,20 @@ Jessica Dennis
               </div>
 
               {/* what are best payroll tools */}
-      <section id="best-pm-software">
+      <section id="best-payroll-software">
       {/* Common Heading */}
-      <div className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 mb-8">
-        <h1 className="text-3xl font-bold text-black mb-2">
+     
+        <h1 className="text-3xl font-bold mt-4 text-black mb-2">
           What is the payroll software?
         </h1>
         <p className="text-gray-700">
           Here are our top recommendations for payroll software in 2025.
         </p>
-      </div>
+     
 
       {/* Map through the tools array */}
       {toolsArray.map((tool) => (
-        <div key={tool.id} className="bg-white rounded-xl border border-gray-200 shadow-sm p-6 mb-8">
+        <div key={tool.id} className="bg-white rounded-xl border border-gray-200 mt-4 shadow-sm p-6 mb-8">
           {/* Tool Header */}
           <div className="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-4 mb-6">
             <div className="flex items-center gap-4">
@@ -1368,7 +1353,7 @@ Jessica Dennis
           </div>
 
           {/* Scores */}
-          <div className="space-y-4 mb-6">
+          <div className="space-y-4 text-black mb-6">
             {tool.scores.map((score, index) => (
               <div key={index}>
                 <div className="flex justify-between text-sm font-medium mb-1">
@@ -1388,7 +1373,7 @@ Jessica Dennis
           </div>
 
           {/* Pros and Cons */}
-          <div className="grid md:grid-cols-2 gap-6 mb-6">
+          <div className="grid md:grid-cols-2 text-black gap-6 mb-6">
             <div>
               <h3 className="text-lg font-semibold mb-2">Pros</h3>
               <ul className="list-disc pl-5 space-y-1">
@@ -1408,7 +1393,7 @@ Jessica Dennis
           </div>
 
           {/* Why I Chose Section */}
-          <div className="mb-6">
+          <div className="mb-6 text-black">
             <h3 className="text-lg font-semibold mb-2">
               Why I chose {tool.title.split(':')[0]}
             </h3>
@@ -1427,7 +1412,7 @@ Jessica Dennis
           {tool.why.extras && Object.entries(tool.why.extras).map(([label, content]) => {
             const sectionKey = `${tool.id}-${label}`;
             return (
-              <div key={sectionKey} className="border-t pt-4 mb-4">
+              <div key={sectionKey} className="border-t text-black pt-4 mb-4">
                 <button
                   onClick={() => toggleSection(sectionKey)}
                   className="w-full flex justify-between items-center font-medium"
@@ -1459,7 +1444,7 @@ Jessica Dennis
 
               {/* find your prodoct management software */}
               <section
-                id="find-new-software"
+                id="find-your-new-payroll-software"
                 className="mt-8 max-w-7xl mx-auto"
               >
                 <div className="bg-white rounded-2xl sm:rounded-3xl border border-gray-200 shadow-sm hover:shadow-lg mt-4 p-6 sm:p-8 transition-shadow duration-300 overflow-hidden">
@@ -1800,7 +1785,7 @@ Jessica Dennis
               </section>
 
               {/* FAQs */}
-              <section id="pm-faqs" className="mt-8 max-w-7xl mx-auto">
+              <section id="payroll-faqs" className="mt-8 max-w-7xl mx-auto">
                 <div className="max-w-none">
                   {/* Main Heading */}
                   <h1 className="text-xl sm:text-2xl md:text-3xl lg:text-4xl font-bold text-gray-900 leading-tight mb-8 sm:mb-10 md:mb-12 lg:mb-16">
